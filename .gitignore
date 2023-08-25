@@ -1,0 +1,28 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node.js / NPM
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de desarrollo
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+build/
+dist/
+coverage/
+*.log
+
+# Dependencias específicas de tu editor/IDE (pueden variar)
+.vscode/
+.idea/
+*.iml
+
+
+
+# Archivos de caché
+.cache/
+package-lock.json
+yarn.lock
